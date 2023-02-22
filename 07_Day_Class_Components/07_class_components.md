@@ -814,7 +814,7 @@ class App extends React.Component {
 const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
 ```
-
+Class components strictly returns a JSX or Null.
 Most of the time the container or the parent component can be written as class component and others as functional or presentational components. Data usually flows from parent components to child component and it is unidirectional. However, the latest version of react can allow us to write every component in our application only with functional components. This was impossible in previous versions.
 In next section, we will cover state which is the heart of React. State allows React component to rerender when whenever there is a change in state.
 
